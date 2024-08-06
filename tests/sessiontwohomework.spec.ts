@@ -141,5 +141,3 @@ test("Scenario One", async ({ page }) => {
     await page.locator('[data-test="error-button"]').click();
     await expect(page.locator('[data-test="error"]')).toBeHidden();
   });
-
-test("Sample Scenario", async ({ page }) => {});
